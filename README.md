@@ -5,7 +5,7 @@ TicTacToe PvP game in Python with database support
 pretty table - pip3 install prettytable
 
 ## How to use
-* Clone/download this repository http://github.com/sunx2/Py-TicTacToe-with-db 
+* Clone/download this repository http://github.com/kannan95/Py-TicTacToe-with-db 
 * Unzip the file
 * Run the main.py
 
