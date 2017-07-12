@@ -53,7 +53,7 @@ def inserting_into_db():
 
 
 def show_database():
-    p_db = list(cur.execute("SELECT * FROM TTT_tbl;"))
+    p_db = list(cur.execute("SELECT * FROM TTT_tbl ORDER BY WIN DESC;"))
     table = PrettyTable(['ID', 'Name', 'Win', 'Loss', 'Draw'])
     table.align["Name"] = "l"  # Left align city names
     table.padding_width = 1
